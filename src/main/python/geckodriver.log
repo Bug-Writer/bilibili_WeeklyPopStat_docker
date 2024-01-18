@@ -1,0 +1,665 @@
+1705557316508	geckodriver	INFO	geckodriver 0.21.0
+1705557316514	geckodriver	INFO	Listening on 127.0.0.1:50103
+1705557317933	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WeOgPGvf90ha"
+Running without a11y support!
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.547802) [GFX1-]: glxtest: libGL.so.1 missing
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.547802) |[1][GFX1-]: glxtest: libEGL missing (t=0.547838) [GFX1-]: glxtest: libEGL missing
+1705557318547	Marionette	INFO	Marionette enabled
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.547802) |[1][GFX1-]: glxtest: libEGL missing (t=0.547838) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=1.40994) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1705557320410	Marionette	INFO	Listening on port 46833
+1705557320521	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+[Child 3389086, MediaDecoderStateMachine #1] WARNING: 7f2032d7c9e0 OpenCubeb() failed to init cubeb: file /builddir/build/BUILD/firefox-91.4.0/dom/media/AudioStream.cpp:324
+[Child 3389086, MediaDecoderStateMachine #1] WARNING: Decoder=7f2033603400 [OnMediaSinkAudioError]: file /builddir/build/BUILD/firefox-91.4.0/dom/media/MediaDecoderStateMachine.cpp:4001
+1705557326154	Marionette	INFO	Stopped listening on port 46833
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1705557675156	geckodriver	INFO	geckodriver 0.21.0
+1705557675161	geckodriver	INFO	Listening on 127.0.0.1:46541
+1705557676265	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.geAS5fNXFufj"
+Running without a11y support!
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.374097) [GFX1-]: glxtest: libGL.so.1 missing
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.374097) |[1][GFX1-]: glxtest: libEGL missing (t=0.374152) [GFX1-]: glxtest: libEGL missing
+1705557676663	Marionette	INFO	Marionette enabled
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.374097) |[1][GFX1-]: glxtest: libEGL missing (t=0.374152) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=1.06562) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1705557678195	Marionette	INFO	Listening on port 34765
+1705557678341	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+[Child 3458168, MediaDecoderStateMachine #1] WARNING: 7f7ffdb8f2e0 OpenCubeb() failed to init cubeb: file /builddir/build/BUILD/firefox-91.4.0/dom/media/AudioStream.cpp:324
+[Child 3458168, MediaDecoderStateMachine #1] WARNING: Decoder=7f7ffe635000 [OnMediaSinkAudioError]: file /builddir/build/BUILD/firefox-91.4.0/dom/media/MediaDecoderStateMachine.cpp:4001
+1705557684019	Marionette	INFO	Stopped listening on port 34765
+console.error: PushServiceWebSocket: 
+  _beginWSSetup: Not in shutdown state! Current state
+  2
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1705557875674	geckodriver	INFO	geckodriver 0.21.0
+1705557875679	geckodriver	INFO	Listening on 127.0.0.1:56193
+1705557876765	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FaO2TmDrPUqk"
+Running without a11y support!
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.322712) [GFX1-]: glxtest: libGL.so.1 missing
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.322712) |[1][GFX1-]: glxtest: libEGL missing (t=0.322748) [GFX1-]: glxtest: libEGL missing
+1705557877113	Marionette	INFO	Marionette enabled
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.322712) |[1][GFX1-]: glxtest: libEGL missing (t=0.322748) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.922774) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1705557878688	Marionette	INFO	Listening on port 40317
+1705557878730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+[Child 3493715, MediaDecoderStateMachine #1] WARNING: 7f7d2eeb7e40 OpenCubeb() failed to init cubeb: file /builddir/build/BUILD/firefox-91.4.0/dom/media/AudioStream.cpp:324
+[Child 3493715, MediaDecoderStateMachine #1] WARNING: Decoder=7f7d2c611c00 [OnMediaSinkAudioError]: file /builddir/build/BUILD/firefox-91.4.0/dom/media/MediaDecoderStateMachine.cpp:4001
+1705557883520	Marionette	INFO	Stopped listening on port 40317
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1705557924770	geckodriver	INFO	geckodriver 0.21.0
+1705557924775	geckodriver	INFO	Listening on 127.0.0.1:44465
+1705557925847	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gjEimZXzidQU"
+Running without a11y support!
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.343183) [GFX1-]: glxtest: libGL.so.1 missing
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.343183) |[1][GFX1-]: glxtest: libEGL missing (t=0.343218) [GFX1-]: glxtest: libEGL missing
+1705557926214	Marionette	INFO	Marionette enabled
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.343183) |[1][GFX1-]: glxtest: libEGL missing (t=0.343218) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.990198) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1705557927752	Marionette	INFO	Listening on port 41595
+1705557927825	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+[Child 3495052, MediaDecoderStateMachine #1] WARNING: 7f1737c69ac0 OpenCubeb() failed to init cubeb: file /builddir/build/BUILD/firefox-91.4.0/dom/media/AudioStream.cpp:324
+[Child 3495052, MediaDecoderStateMachine #1] WARNING: Decoder=7f1738850800 [OnMediaSinkAudioError]: file /builddir/build/BUILD/firefox-91.4.0/dom/media/MediaDecoderStateMachine.cpp:4001
+1705557933667	Marionette	INFO	Stopped listening on port 41595
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1705558039279	geckodriver	INFO	geckodriver 0.21.0
+1705558039283	geckodriver	INFO	Listening on 127.0.0.1:51687
+1705558039360	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4dI73E7XW3dh"
+Running without a11y support!
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.405738) [GFX1-]: glxtest: libGL.so.1 missing
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.405738) |[1][GFX1-]: glxtest: libEGL missing (t=0.405772) [GFX1-]: glxtest: libEGL missing
+1705558039796	Marionette	INFO	Marionette enabled
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.405738) |[1][GFX1-]: glxtest: libEGL missing (t=0.405772) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=1.13887) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1705558041466	Marionette	INFO	Listening on port 45595
+1705558041539	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+[Child 3530041, MediaDecoderStateMachine #1] WARNING: 7f662f8c7040 OpenCubeb() failed to init cubeb: file /builddir/build/BUILD/firefox-91.4.0/dom/media/AudioStream.cpp:324
+[Child 3530041, MediaDecoderStateMachine #1] WARNING: Decoder=7f663014c000 [OnMediaSinkAudioError]: file /builddir/build/BUILD/firefox-91.4.0/dom/media/MediaDecoderStateMachine.cpp:4001
+1705558047203	Marionette	INFO	Stopped listening on port 45595
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1705558211832	geckodriver	INFO	geckodriver 0.21.0
+1705558211838	geckodriver	INFO	Listening on 127.0.0.1:42741
+1705558212939	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.R75ff0jhtrZ7"
+Running without a11y support!
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.340252) [GFX1-]: glxtest: libGL.so.1 missing
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.340252) |[1][GFX1-]: glxtest: libEGL missing (t=0.340286) [GFX1-]: glxtest: libEGL missing
+1705558213309	Marionette	INFO	Marionette enabled
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.340252) |[1][GFX1-]: glxtest: libEGL missing (t=0.340286) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=1.02232) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1705558214961	Marionette	INFO	Listening on port 40953
+1705558215029	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+[Child 3567147, MediaDecoderStateMachine #1] WARNING: 7f18bb4fb9e0 OpenCubeb() failed to init cubeb: file /builddir/build/BUILD/firefox-91.4.0/dom/media/AudioStream.cpp:324
+[Child 3567147, MediaDecoderStateMachine #1] WARNING: Decoder=7f18bbcd9c00 [OnMediaSinkAudioError]: file /builddir/build/BUILD/firefox-91.4.0/dom/media/MediaDecoderStateMachine.cpp:4001
+1705558220650	Marionette	INFO	Stopped listening on port 40953
+console.error: PushServiceWebSocket: 
+  _beginWSSetup: Not in shutdown state! Current state
+  2
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1705558278150	geckodriver	INFO	geckodriver 0.21.0
+1705558278154	geckodriver	INFO	Listening on 127.0.0.1:39855
+1705558279265	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sDGoMrUAobsv"
+Running without a11y support!
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.322869) [GFX1-]: glxtest: libGL.so.1 missing
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.322869) |[1][GFX1-]: glxtest: libEGL missing (t=0.322906) [GFX1-]: glxtest: libEGL missing
+1705558279606	Marionette	INFO	Marionette enabled
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.322869) |[1][GFX1-]: glxtest: libEGL missing (t=0.322906) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.92749) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1705558281132	Marionette	INFO	Listening on port 37093
+1705558281227	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+[Child 3568221, MediaDecoderStateMachine #1] WARNING: 7fd44af4dac0 OpenCubeb() failed to init cubeb: file /builddir/build/BUILD/firefox-91.4.0/dom/media/AudioStream.cpp:324
+[Child 3568221, MediaDecoderStateMachine #1] WARNING: Decoder=7fd44bf50000 [OnMediaSinkAudioError]: file /builddir/build/BUILD/firefox-91.4.0/dom/media/MediaDecoderStateMachine.cpp:4001
+1705558286927	Marionette	INFO	Stopped listening on port 37093
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1705558402890	geckodriver	INFO	geckodriver 0.21.0
+1705558402894	geckodriver	INFO	Listening on 127.0.0.1:41443
+1705558403971	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7aDDtTRCN8FA"
+Running without a11y support!
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.321385) [GFX1-]: glxtest: libGL.so.1 missing
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.321385) |[1][GFX1-]: glxtest: libEGL missing (t=0.321418) [GFX1-]: glxtest: libEGL missing
+1705558404312	Marionette	INFO	Marionette enabled
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.321385) |[1][GFX1-]: glxtest: libEGL missing (t=0.321418) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.95524) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1705558405776	Marionette	INFO	Listening on port 45023
+1705558405835	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+[Child 3603333, MediaDecoderStateMachine #1] WARNING: 7fb9898d6c80 OpenCubeb() failed to init cubeb: file /builddir/build/BUILD/firefox-91.4.0/dom/media/AudioStream.cpp:324
+[Child 3603333, MediaDecoderStateMachine #1] WARNING: Decoder=7fb98a108000 [OnMediaSinkAudioError]: file /builddir/build/BUILD/firefox-91.4.0/dom/media/MediaDecoderStateMachine.cpp:4001
+1705558411354	Marionette	INFO	Stopped listening on port 45023
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1705559075630	geckodriver	INFO	geckodriver 0.21.0
+1705559075636	geckodriver	INFO	Listening on 127.0.0.1:41141
+1705559076719	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cHBuz61Mt3NW"
+Running without a11y support!
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.47924) [GFX1-]: glxtest: libGL.so.1 missing
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.47924) |[1][GFX1-]: glxtest: libEGL missing (t=0.479273) [GFX1-]: glxtest: libEGL missing
+1705559077223	Marionette	INFO	Marionette enabled
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.47924) |[1][GFX1-]: glxtest: libEGL missing (t=0.479273) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=1.22957) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1705559079094	Marionette	INFO	Listening on port 35833
+1705559079212	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+[Child 3729622, MediaDecoderStateMachine #1] WARNING: 7f7f9f8d92e0 OpenCubeb() failed to init cubeb: file /builddir/build/BUILD/firefox-91.4.0/dom/media/AudioStream.cpp:324
+[Child 3729622, MediaDecoderStateMachine #1] WARNING: Decoder=7f7f9e9ab800 [OnMediaSinkAudioError]: file /builddir/build/BUILD/firefox-91.4.0/dom/media/MediaDecoderStateMachine.cpp:4001
+1705559084239	Marionette	INFO	Stopped listening on port 35833
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1705559090108	geckodriver	INFO	geckodriver 0.21.0
+1705559090113	geckodriver	INFO	Listening on 127.0.0.1:45223
+1705559091222	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AEgpspKHMjl3"
+Running without a11y support!
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.446892) [GFX1-]: glxtest: libGL.so.1 missing
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.446892) |[1][GFX1-]: glxtest: libEGL missing (t=0.446943) [GFX1-]: glxtest: libEGL missing
+1705559091704	Marionette	INFO	Marionette enabled
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.446892) |[1][GFX1-]: glxtest: libEGL missing (t=0.446943) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=1.16867) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1705559093463	Marionette	INFO	Listening on port 35803
+1705559093554	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+[Child 3737103, MediaDecoderStateMachine #1] WARNING: 7f51c641b900 OpenCubeb() failed to init cubeb: file /builddir/build/BUILD/firefox-91.4.0/dom/media/AudioStream.cpp:324
+[Child 3737103, MediaDecoderStateMachine #1] WARNING: Decoder=7f51c711c400 [OnMediaSinkAudioError]: file /builddir/build/BUILD/firefox-91.4.0/dom/media/MediaDecoderStateMachine.cpp:4001
+1705559100265	Marionette	INFO	Stopped listening on port 35803
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1705559109048	geckodriver	INFO	geckodriver 0.21.0
+1705559109053	geckodriver	INFO	Listening on 127.0.0.1:55515
+1705559110125	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TskPsBFCECs8"
+Running without a11y support!
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.342793) [GFX1-]: glxtest: libGL.so.1 missing
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.342793) |[1][GFX1-]: glxtest: libEGL missing (t=0.342826) [GFX1-]: glxtest: libEGL missing
+1705559110488	Marionette	INFO	Marionette enabled
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.342793) |[1][GFX1-]: glxtest: libEGL missing (t=0.342826) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=1.00471) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1705559112067	Marionette	INFO	Listening on port 37987
+1705559112176	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+[Child 3744475, MediaDecoderStateMachine #1] WARNING: 7f27367a3820 OpenCubeb() failed to init cubeb: file /builddir/build/BUILD/firefox-91.4.0/dom/media/AudioStream.cpp:324
+[Child 3744475, MediaDecoderStateMachine #1] WARNING: Decoder=7f273794fc00 [OnMediaSinkAudioError]: file /builddir/build/BUILD/firefox-91.4.0/dom/media/MediaDecoderStateMachine.cpp:4001
+1705559116863	Marionette	INFO	Stopped listening on port 37987
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1705559124114	geckodriver	INFO	geckodriver 0.21.0
+1705559124118	geckodriver	INFO	Listening on 127.0.0.1:58457
+1705559125212	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hk1wnICmLmLp"
+Running without a11y support!
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.306464) [GFX1-]: glxtest: libGL.so.1 missing
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.306464) |[1][GFX1-]: glxtest: libEGL missing (t=0.306497) [GFX1-]: glxtest: libEGL missing
+1705559125543	Marionette	INFO	Marionette enabled
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.306464) |[1][GFX1-]: glxtest: libEGL missing (t=0.306497) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.988786) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1705559127126	Marionette	INFO	Listening on port 45917
+1705559127183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+[Child 3744784, MediaDecoderStateMachine #1] WARNING: 7fa45685cac0 OpenCubeb() failed to init cubeb: file /builddir/build/BUILD/firefox-91.4.0/dom/media/AudioStream.cpp:324
+[Child 3744784, MediaDecoderStateMachine #1] WARNING: Decoder=7fa456bddc00 [OnMediaSinkAudioError]: file /builddir/build/BUILD/firefox-91.4.0/dom/media/MediaDecoderStateMachine.cpp:4001
+1705559132864	Marionette	INFO	Stopped listening on port 45917
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1705559140899	geckodriver	INFO	geckodriver 0.21.0
+1705559140903	geckodriver	INFO	Listening on 127.0.0.1:43689
+1705559141978	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.C3iW9iWYySlp"
+Running without a11y support!
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.331351) [GFX1-]: glxtest: libGL.so.1 missing
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.331351) |[1][GFX1-]: glxtest: libEGL missing (t=0.331387) [GFX1-]: glxtest: libEGL missing
+1705559142331	Marionette	INFO	Marionette enabled
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.331351) |[1][GFX1-]: glxtest: libEGL missing (t=0.331387) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=1.00142) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1705559143889	Marionette	INFO	Listening on port 38583
+1705559143966	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+[Child 3745199, MediaDecoderStateMachine #1] WARNING: 7fc33401c120 OpenCubeb() failed to init cubeb: file /builddir/build/BUILD/firefox-91.4.0/dom/media/AudioStream.cpp:324
+[Child 3745199, MediaDecoderStateMachine #1] WARNING: Decoder=7fc334916400 [OnMediaSinkAudioError]: file /builddir/build/BUILD/firefox-91.4.0/dom/media/MediaDecoderStateMachine.cpp:4001
+1705559148547	Marionette	INFO	Stopped listening on port 38583
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1705559965214	geckodriver	INFO	geckodriver 0.21.0
+1705559965217	geckodriver	INFO	Listening on 127.0.0.1:36547
+1705559965318	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YqhAFCSopNBA"
+Running without a11y support!
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.382152) [GFX1-]: glxtest: libGL.so.1 missing
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.382152) |[1][GFX1-]: glxtest: libEGL missing (t=0.382188) [GFX1-]: glxtest: libEGL missing
+1705559965724	Marionette	INFO	Marionette enabled
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.382152) |[1][GFX1-]: glxtest: libEGL missing (t=0.382188) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.957384) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1705559967170	Marionette	INFO	Listening on port 37943
+1705559967280	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1705559969812	Marionette	INFO	Stopped listening on port 37943
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1705560029671	geckodriver	INFO	geckodriver 0.21.0
+1705560029675	geckodriver	INFO	Listening on 127.0.0.1:34087
+1705560030782	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VsH3929klZ29"
+Running without a11y support!
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.328306) [GFX1-]: glxtest: libGL.so.1 missing
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.328306) |[1][GFX1-]: glxtest: libEGL missing (t=0.328338) [GFX1-]: glxtest: libEGL missing
+1705560031135	Marionette	INFO	Marionette enabled
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.328306) |[1][GFX1-]: glxtest: libEGL missing (t=0.328338) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.882963) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1705560032618	Marionette	INFO	Listening on port 34065
+1705560032724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1705560036107	Marionette	INFO	Stopped listening on port 34065
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1705560042482	geckodriver	INFO	geckodriver 0.21.0
+1705560042486	geckodriver	INFO	Listening on 127.0.0.1:59853
+1705560043612	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LqWqAaE9WpxB"
+Running without a11y support!
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.369348) [GFX1-]: glxtest: libGL.so.1 missing
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.369348) |[1][GFX1-]: glxtest: libEGL missing (t=0.369392) [GFX1-]: glxtest: libEGL missing
+1705560044019	Marionette	INFO	Marionette enabled
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.369348) |[1][GFX1-]: glxtest: libEGL missing (t=0.369392) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.99568) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1705560045333	Marionette	INFO	Listening on port 34873
+1705560045371	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1705560048799	Marionette	INFO	Stopped listening on port 34873
+[Child 3917972, MediaDecoderStateMachine #1] WARNING: 7f9d9822cba0 OpenCubeb() failed to init cubeb: file /builddir/build/BUILD/firefox-91.4.0/dom/media/AudioStream.cpp:324
+[Child 3917972, MediaDecoderStateMachine #1] WARNING: Decoder=7f9d991ac800 [OnMediaSinkAudioError]: file /builddir/build/BUILD/firefox-91.4.0/dom/media/MediaDecoderStateMachine.cpp:4001
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1705560057441	geckodriver	INFO	geckodriver 0.21.0
+1705560057445	geckodriver	INFO	Listening on 127.0.0.1:53207
+1705560058535	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pg0XXPFmftSn"
+Running without a11y support!
+*** You are running in headless mode.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.358743) [GFX1-]: glxtest: libGL.so.1 missing
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.358743) |[1][GFX1-]: glxtest: libEGL missing (t=0.358781) [GFX1-]: glxtest: libEGL missing
+1705560058915	Marionette	INFO	Marionette enabled
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: libGL.so.1 missing (t=0.358743) |[1][GFX1-]: glxtest: libEGL missing (t=0.358781) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.975468) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1705560060403	Marionette	INFO	Listening on port 46011
+1705560060481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js, line 2: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1705560062902	Marionette	INFO	Stopped listening on port 46011
+[Child 3918318, MediaDecoderStateMachine #1] WARNING: 7ff61b6dd120 OpenCubeb() failed to init cubeb: file /builddir/build/BUILD/firefox-91.4.0/dom/media/AudioStream.cpp:324
+[Child 3918318, MediaDecoderStateMachine #1] WARNING: Decoder=7ff61b548c00 [OnMediaSinkAudioError]: file /builddir/build/BUILD/firefox-91.4.0/dom/media/MediaDecoderStateMachine.cpp:4001
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
