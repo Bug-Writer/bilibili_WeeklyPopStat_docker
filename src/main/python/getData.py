@@ -1,9 +1,13 @@
 import requests
 import time
 import json
+import threading
 from pymongo import MongoClient
 from bs4 import BeautifulSoup
+from lxml import html
+from queue import Queue
 from selenium import webdriver
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -12,78 +16,80 @@ from selenium.webdriver.support import expected_conditions as EC
 def launch_page(issue):
     options = Options()
     options.headless = True
-    url = f'https://www.bilibili.com/v/popular/weekly?num={issue}'
     driver = webdriver.Firefox(executable_path = '/usr/local/bin/geckodriver', options = options)
-    driver.get(url)
+
+    for i in range(1, issue + 1):
+        url = f'https://www.bilibili.com/v/popular/weekly?num={i}'
+        driver.get(url)
+        print(f'now loading No.{i}:')
+        try:
+            WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CLASS_NAME, "video-card")))
+            response = driver.page_source
+            soup = BeautifulSoup(response, 'lxml')
+            video_hrefs = soup.find_all('div', class_ = 'video-card')
+            for sub in video_hrefs:
+                href = sub.find('a', href = True)['href']
+                print(f'href:{href}')
+                q.put(href)
+        except TimeoutException:
+            print('等待超时')
+    driver.quit()
+    end_event.set()
+
+def get_video_info():
+    while True:
+        try:
+            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+            href = q.get()
+            if not isinstance(href, str):
+                if end_event.is_set():
+                    break
+                continue
+            response = requests.get('https:' + href, headers = headers)
+            soup = BeautifulSoup(response.text, 'lxml')
+            a_tags = soup.find_all('a', class_ = 'tag-link')
+            title = soup.find('h1', class_ = 'video-title').get_text()
+            pubtime = soup.find('span', class_ = 'pubdate-text').get_text().strip()
+            video_tags = []
+            for tag in a_tags:
+                href = tag.get('href')
+                if href.startswith('//www.bilibili.com/v'):
+                    video_tags.append(tag.get_text())
+            info = {
+                'video_title': title,
+                'video_time':  pubtime,
+                'video_tags': video_tags
+            }
+            print(f'info collected: {info}')
+            tb.insert_one(info)
+            q.task_done()
     
-    try:
-        element = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "video-card")))
-    finally:
-        print(f'now loading No.{issue}:')
-        response = driver.page_source
-        driver.quit()
-
-    soup = BeautifulSoup(response, 'html.parser')
-    video_hrefs = soup.find_all('div', class_ = 'video-card')
-    # print(f'video_hrefs found: {video_hrefs}')
-
-    if not video_hrefs:
-        return "find no video href."
-
-    sub_hrefs = []
-    for sub in video_hrefs:
-        tmp = sub.find('a', href = True)
-        sub_hrefs.append(tmp['href'])
-
-    # print(f'sub_hrefs found: {sub_hrefs}')
-
-    info = []
-    for href in sub_hrefs:
-        tmp = get_video_info('https:' + href)
-        data_dict = {
-            'video_title': tmp[0],
-            'video_time':  tmp[1],
-            'video_tags':  tmp[2]
-        }
-        info.append(data_dict)
-
-    return info
-
-def get_video_info(href):
-    try:
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
-        # print('loading function get_video_tags...')
-        response1 = requests.get(href, headers = headers)
-        soup1 = BeautifulSoup(response1.text, 'html.parser')
-        a_tags = soup1.find_all('a', class_ = 'tag-link')
-        title = soup1.find('h1', class_ = 'video-title').get_text()
-        pubtime = soup1.find('span', class_ = 'pubdate-text').get_text().strip()
-        video_tags = []
-        for tag in a_tags:
-            href = tag.get('href')
-            if href.startswith('//www.bilibili.com/v'):
-                video_tags.append(tag.get_text())
-        info = [title, pubtime, video_tags]
-        print(f'info collected: {info}')
-    
-    except requests.HTTPError as e:
-        return f"HTTP error: {e}"
-    except Exception as e:
-        return f"Other error: {e}"
-
-    return info
+        except requests.HTTPError as e:
+            return f"HTTP error: {e}"
+        except Exception as e:
+            return f"Other error: {e}"
 
 print("正在连接MongoDB")
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb://nooboo:luoyuyang@localhost:27017/")
 db = client["biliStat"]
 tb = db['videoInfo']
+q = Queue()
+end_event = threading.Event()
+T = []
 
-issue = input('连接正常\n想从第一期爬到多少期？')
+issue = input('连接正常\n想从第1期爬到第几期？')
+start_time = time.time()
 issue = int(issue)
 
-for i in range(1, issue + 1):
-    infos = launch_page(i)
-    tb.insert_many(infos)
+threading.Thread(target = launch_page, args = (issue, )).start()
+for i in range(3):
+    t = threading.Thread(target = get_video_info)
+    t.start()
+    T.append(t)
 
-# print(tags)
+q.join()
+for t in T:
+    t.join()
 
+end_time = time.time()
+print(f'程序运行用时：{end_time - start_time}秒')

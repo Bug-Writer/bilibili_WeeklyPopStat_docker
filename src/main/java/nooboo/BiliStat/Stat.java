@@ -6,6 +6,7 @@ import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
 import org.apache.spark.sql.functions;
+import org.apache.spark.sql.types.*;
 import static org.apache.spark.sql.functions.col;
 import static org.apache.spark.sql.functions.explode;
 
@@ -16,16 +17,23 @@ public class Stat {
         SparkSession spark = SparkSession.builder()
                 .appName("BiliStat")
                 .master("local")
+		.config("spark.executor.extraJavaOptions", "-Dfile.encoding=UTF-8")
+		.config("spark.driver.extraJavaOptions", "-Dfile.encoding=UTF-8")
                 .config("spark.mongodb.input.uri", "mongodb://nooboo:luoyuyang@8.219.190.155:27017/biliStat.videoInfo?authSource=admin")
                 .getOrCreate();
+	StructType schema = new StructType(new StructField[] {
+            new StructField("_id", DataTypes.StringType, true, Metadata.empty()),
+            new StructField("video_title", DataTypes.StringType, true, Metadata.empty()),
+            new StructField("video_time", DataTypes.StringType, true, Metadata.empty()),
+            new StructField("video_tags", DataTypes.createArrayType(DataTypes.StringType), true, Metadata.empty())
+        });
 
-        Dataset<Row> df = spark.read().format("mongo").load();
+        Dataset<Row> df = spark.read().schema(schema).format("mongo").load();
 	
 	// 解构标签列表
-        Dataset<Row> dfTags = df.withColumn("tag", explode(df.col("video_tags")))
-                                .withColumn("main_tag", col("tag").getItem(0))
-                                .withColumn("sub_tag", col("tag").getItem(1))
-                                .drop("tag");
+        Dataset<Row> dfTags = df.withColumn("main_tag", col("video_tags").getItem(0))
+                                .withColumn("sub_tag", col("video_tags").getItem(1))
+                                .drop("video_tags");
 
         // 显示带有主标签和副标签的DataFrame
         dfTags.show();
