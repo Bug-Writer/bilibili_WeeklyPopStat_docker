@@ -40,34 +40,43 @@ def get_video_info():
     while True:
         try:
             headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+            if q.empty() and end_event.is_set():
+                break
             href = q.get()
             if not isinstance(href, str):
+                q.task_done()
                 if end_event.is_set():
                     break
                 continue
             response = requests.get('https:' + href, headers = headers)
             soup = BeautifulSoup(response.text, 'lxml')
             a_tags = soup.find_all('a', class_ = 'tag-link')
-            title = soup.find('h1', class_ = 'video-title').get_text()
-            pubtime = soup.find('span', class_ = 'pubdate-text').get_text().strip()
+            title = soup.find('h1', class_ = 'video-title')
+            pubtime = soup.find('span', class_ = 'pubdate-text')
             video_tags = []
             for tag in a_tags:
                 href = tag.get('href')
                 if href.startswith('//www.bilibili.com/v'):
                     video_tags.append(tag.get_text())
-            info = {
-                'video_title': title,
-                'video_time':  pubtime,
-                'video_tags': video_tags
-            }
-            print(f'info collected: {info}')
-            tb.insert_one(info)
-            q.task_done()
-    
+            if title and pubtime:
+                info = {
+                    'video_title': title.get_text(),
+                    'video_time':  pubtime.get_text().strip(),
+                    'video_tags': video_tags
+                }
+                print(f'info collected: {info}')
+                tb.insert_one(info)
+        
+        except queue.Empty:
+            continue
         except requests.HTTPError as e:
-            return f"HTTP error: {e}"
+            print(f"HTTP error: {e}")
         except Exception as e:
-            return f"Other error: {e}"
+            print(f"Other error: {e}")
+
+        finally:
+            if not q.empty():
+                q.task_done()
 
 print("正在连接MongoDB")
 client = MongoClient("mongodb://nooboo:luoyuyang@localhost:27017/")
@@ -87,7 +96,7 @@ for i in range(3):
     t.start()
     T.append(t)
 
-q.join()
+# q.join()
 for t in T:
     t.join()
 
