@@ -1,0 +1,1 @@
+mongoConf="mongodb://User:Pwd@Host:Port/db.collection"
